@@ -1,64 +1,59 @@
+### What helm offers?
+```
+Agility
+Simplicity
+Consistency
+```
+### Agility
 
-What helm offers?
-
-    Agility
-    Simplicity
-    Consistency
-
-* Agility
-
-    Helm Integrates into GitOps and CICD
-    Simple Deployment and upgrades through helm
-    Helm Automates manual tasks
-    Risk of error reduced during deployment
+Helm Integrates into GitOps and CICD
+Simple Deployment and upgrades through helm
+Helm Automates manual tasks
+Risk of error reduced during deployment
 
 Unlocked via Troubleshooting technique
 
-    Increased resilience of apps
-    Focus on testing and validation
-    Early spotting of issues.
-    Better Maintaining control
-    Reliability of cloud-native application.
+Increased resilience of apps
+Focus on testing and validation
+Early spotting of issues.
+Better Maintaining control
+Reliability of cloud-native application.
 
 Helm
 
-    The kubernetes package manager
-    Manages packages(charts) of kubernetes resources.
-    Website https://helm.sh
+The kubernetes package manager
+Manages packages(charts) of kubernetes resources.
+Website https://helm.sh
 
 Artifact registry?
 
-    https://artifacthub.io
+https://artifacthub.io
 
-    Upload helm chart
+Upload helm chart
 
-    Helm helps you manage kubernetes applications.
-        Manage Complexity
-        Easy Updates
-        Simple Sharing
-        Rollbacks
-
-
-* Why are we using HELM?
-
-   Reason to use Helm?
-
-   We want to manage complex kubernetes applications
+Helm helps you manage kubernetes applications.
+    Manage Complexity
+    Easy Updates
+    Simple Sharing
+    Rollbacks
 
 
-* Alternative to Helm
+### Why are we using HELM?
 
-    Category                                   Helm                                              Kustomize
+Reason to use Helm?
 
-    Method of operation          Templating                                           Overlays
+We want to manage complex kubernetes applications
 
-    Ease Of Use                  More Complex due to templating                       Simpler, as if works with raw YAML
 
-    Package Support              Yes, Packages applications as charts                 No, but allows for customization of manifests
+### Alternative to Helm
 
-    Integration with kubernetes  Requires a separate CLI                              Integrates natively with kubectl
-
-    Configuration Apporach       Imperative, with a focus on package manaagement      Declarative, with focusing on customization
+|Category                     |       Helm                                     |       Kustomize                                |
+|  :------------              |  :--------------                               |  :------------                                 |
+| Method of operation         | Templating                                     |  Overlays                                      |
+| Ease Of Use                 | More Complex due to templating                 |  Simpler, as if works with raw YAML            |
+| Package Support             | Yes, Packages applications as charts           |  No, but allows for customization of manifests |
+| Integration with kubernetes | Requires a separate CLI                        |  Integrates natively with kubectl              |
+| Configuration Apporach      | Imperative, with a focus on package manaagement|  Declarative, with focusing on customization   |
 
     Note: helm-cli
 
